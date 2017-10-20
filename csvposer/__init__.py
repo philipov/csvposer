@@ -1,4 +1,4 @@
-#-- powertools.__init__
+#-- csvposer.__init__
 
 """ CSVPoser
     Transform CSV files using a context manager
