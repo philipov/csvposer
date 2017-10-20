@@ -6,7 +6,7 @@ from copy import deepcopy
 kwargs = dict(
     name            = 'csvposer',
     packages        = ['csvposer'],
-    version         = '0.0.0',
+    version         = '0.0.1',
     description     = __doc__,
     license         = "MIT License",
 
@@ -20,9 +20,9 @@ kwargs = dict(
     # install_requires=[
     #     'powertools',
     # ],
-    # classifiers=[
-    #     'Programming Language :: Python :: 3.6',
-    # ]
+    classifiers=[
+        'Programming Language :: Python :: 3.6',
+    ]
 )
 
 test_kwargs = deepcopy( kwargs )
